@@ -1,6 +1,8 @@
 package com.geovannycode.ecommerce.model;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.geovannycode.ecommerce.model.enums.OrderStatus;
+import com.geovannycode.ecommerce.model.enums.PaymentStatus;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
