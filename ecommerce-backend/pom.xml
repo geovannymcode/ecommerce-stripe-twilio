@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.geovannycode</groupId>
 	<artifactId>ecommerce-backend</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>ecommerce-backend</name>
 	<description>E-commerce backend with Stripe and Twilio integration</description>
 	<properties>
