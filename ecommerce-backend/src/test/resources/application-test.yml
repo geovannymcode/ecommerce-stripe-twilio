@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+
+  h2:
+    console:
+      enabled: true
+
+stripe:
+  secret-key: sk_test_fake_key
+  webhook-secret: whsec_fake_secret
+
+twilio:
+  account-sid: fake_sid
+  auth-token: fake_token
+  phone-number: +1234567890
